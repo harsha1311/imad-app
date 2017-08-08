@@ -52,7 +52,7 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/:articles',function(req,res)
+app.get('/:articleName',function(req,res)
 {
     var articleName=req.params.articles;
     res.send(createTemplate(articles[articleName]));
