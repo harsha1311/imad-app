@@ -15,7 +15,7 @@ var articles={
         `
     },
     'article-two':{
-         title:'Harsha Mogali-2',
+    title:'Harsha Mogali-2',
     heading:'Article-two',
     content:`
     <p>This is article-two. This is article-two</p  `
@@ -23,8 +23,8 @@ var articles={
 };
 function createTemplate(data)
 {
-    title=data.title;
-    heading=data.heading;
+    title=data.title,
+    heading=data.heading,
     content=data.content;
 var htmlTemplate=
 `
