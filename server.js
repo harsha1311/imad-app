@@ -19,7 +19,7 @@ var articles={
     heading:'Article-two',
     content:`
     <p>This is article-two. This is article-two</p  `
-    },
+    }
 };
 function createTemplate(data)
 {
